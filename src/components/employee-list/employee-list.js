@@ -8,7 +8,7 @@ const EmployeeList = ({ data }) => {
 			<EmployeeListItem
 				name={item.name}
 				salary={item.salary}
-				key={item.name}
+				key={item.id}
 				increase={item.increase}
 			/>
 		);
